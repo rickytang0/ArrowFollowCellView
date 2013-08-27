@@ -1,5 +1,5 @@
 //
-//  RTViewController.h
+//  BaseFollowArrowCell.h
 //  FollowCellArrow
 //
 //  Created by 唐 嘉宾 on 13-8-3.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RTFollowCellArrowView.h"
 
-@interface RTViewController : UIViewController<RTFollowCellArrowViewDelegate,UITableViewDataSource>
+@interface BaseFollowArrowCell : UITableViewCell
+@property(nonatomic,weak)IBOutlet UIImageView *imageArrow;
 
 @end
