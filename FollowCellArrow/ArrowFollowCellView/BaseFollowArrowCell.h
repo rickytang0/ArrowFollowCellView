@@ -11,4 +11,5 @@
 @interface BaseFollowArrowCell : UITableViewCell
 @property(nonatomic,weak)IBOutlet UIImageView *imageArrow;
 
+-(void)hightLightWith:(BOOL)isHight;
 @end

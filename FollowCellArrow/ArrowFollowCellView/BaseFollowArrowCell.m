@@ -40,7 +40,14 @@
 -(void)drawRect:(CGRect)rect
 {
     self.imageArrow.hidden = YES;
-    self.imageArrow.center = CGPointMake(CGRectGetWidth(self.frame)-CGRectGetWidth(self.imageArrow.frame)/2, CGRectGetHeight(self.frame)/2);
+    self.imageArrow.center = CGPointMake(CGRectGetWidth(self.frame)-CGRectGetWidth(self.imageArrow.frame)/2+1, CGRectGetHeight(self.frame)/2);
+}
+
+
+
+-(void)hightLightWith:(BOOL)isHight
+{
+    
 }
 
 @end

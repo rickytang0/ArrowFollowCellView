@@ -18,8 +18,8 @@
 		7E42A33117AC9E3D006823C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E42A33017AC9E3D006823C0 /* Default-568h@2x.png */; };
 		7E42A33417AC9E3D006823C0 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E42A33317AC9E3D006823C0 /* RTViewController.m */; };
 		7E42A33717AC9E3E006823C0 /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E42A33517AC9E3E006823C0 /* RTViewController.xib */; };
-		7E42A34017ACA080006823C0 /* RTFollowCellArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E42A33F17ACA080006823C0 /* RTFollowCellArrowView.m */; };
-		7EE0D7D017AD43E400E35108 /* BaseFollowArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE0D7CF17AD43E400E35108 /* BaseFollowArrowCell.m */; };
+		7ED9188017E5E75D00E8BA05 /* BaseFollowArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9187D17E5E75D00E8BA05 /* BaseFollowArrowCell.m */; };
+		7ED9188117E5E75D00E8BA05 /* RTFollowCellArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9187F17E5E75D00E8BA05 /* RTFollowCellArrowView.m */; };
 		7EE0D7D217AD440C00E35108 /* BaseFollowArrowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE0D7D117AD440B00E35108 /* BaseFollowArrowCell.xib */; };
 		7EEAB4A017AE94E7007044F3 /* UITableViewCell+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAB49E17AE94E7007044F3 /* UITableViewCell+Create.m */; };
 		7EEAB4A517AEA323007044F3 /* dishes_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAB4A417AEA323007044F3 /* dishes_arrow.png */; };
@@ -42,11 +42,11 @@
 		7E42A33217AC9E3D006823C0 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
 		7E42A33317AC9E3D006823C0 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
 		7E42A33617AC9E3E006823C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
-		7E42A33E17ACA080006823C0 /* RTFollowCellArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTFollowCellArrowView.h; sourceTree = "<group>"; };
-		7E42A33F17ACA080006823C0 /* RTFollowCellArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTFollowCellArrowView.m; sourceTree = "<group>"; };
-		7EE0D7CE17AD43E400E35108 /* BaseFollowArrowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFollowArrowCell.h; sourceTree = "<group>"; };
-		7EE0D7CF17AD43E400E35108 /* BaseFollowArrowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFollowArrowCell.m; sourceTree = "<group>"; };
-		7EE0D7D117AD440B00E35108 /* BaseFollowArrowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseFollowArrowCell.xib; sourceTree = "<group>"; };
+		7ED9187C17E5E75D00E8BA05 /* BaseFollowArrowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFollowArrowCell.h; sourceTree = "<group>"; };
+		7ED9187D17E5E75D00E8BA05 /* BaseFollowArrowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFollowArrowCell.m; sourceTree = "<group>"; };
+		7ED9187E17E5E75D00E8BA05 /* RTFollowCellArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTFollowCellArrowView.h; sourceTree = "<group>"; };
+		7ED9187F17E5E75D00E8BA05 /* RTFollowCellArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTFollowCellArrowView.m; sourceTree = "<group>"; };
+		7EE0D7D117AD440B00E35108 /* BaseFollowArrowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaseFollowArrowCell.xib; path = ../BaseFollowArrowCell.xib; sourceTree = "<group>"; };
 		7EEAB49D17AE94E6007044F3 /* UITableViewCell+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Create.h"; sourceTree = "<group>"; };
 		7EEAB49E17AE94E7007044F3 /* UITableViewCell+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Create.m"; sourceTree = "<group>"; };
 		7EEAB4A417AEA323007044F3 /* dishes_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dishes_arrow.png; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		7E42A32017AC9E3D006823C0 /* FollowCellArrow */ = {
 			isa = PBXGroup;
 			children = (
-				7E42A33D17ACA058006823C0 /* FollowCellArrow */,
+				7ED9187B17E5E75D00E8BA05 /* ArrowFollowCellView */,
 				7E42A32917AC9E3D006823C0 /* RTAppDelegate.h */,
 				7E42A32A17AC9E3D006823C0 /* RTAppDelegate.m */,
 				7E42A33217AC9E3D006823C0 /* RTViewController.h */,
@@ -124,16 +124,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E42A33D17ACA058006823C0 /* FollowCellArrow */ = {
+		7ED9187B17E5E75D00E8BA05 /* ArrowFollowCellView */ = {
 			isa = PBXGroup;
 			children = (
-				7E42A33E17ACA080006823C0 /* RTFollowCellArrowView.h */,
-				7E42A33F17ACA080006823C0 /* RTFollowCellArrowView.m */,
-				7EE0D7CE17AD43E400E35108 /* BaseFollowArrowCell.h */,
-				7EE0D7CF17AD43E400E35108 /* BaseFollowArrowCell.m */,
 				7EE0D7D117AD440B00E35108 /* BaseFollowArrowCell.xib */,
+				7ED9187C17E5E75D00E8BA05 /* BaseFollowArrowCell.h */,
+				7ED9187D17E5E75D00E8BA05 /* BaseFollowArrowCell.m */,
+				7ED9187E17E5E75D00E8BA05 /* RTFollowCellArrowView.h */,
+				7ED9187F17E5E75D00E8BA05 /* RTFollowCellArrowView.m */,
 			);
-			name = FollowCellArrow;
+			path = ArrowFollowCellView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +208,9 @@
 				7E42A32717AC9E3D006823C0 /* main.m in Sources */,
 				7E42A32B17AC9E3D006823C0 /* RTAppDelegate.m in Sources */,
 				7E42A33417AC9E3D006823C0 /* RTViewController.m in Sources */,
-				7E42A34017ACA080006823C0 /* RTFollowCellArrowView.m in Sources */,
-				7EE0D7D017AD43E400E35108 /* BaseFollowArrowCell.m in Sources */,
 				7EEAB4A017AE94E7007044F3 /* UITableViewCell+Create.m in Sources */,
+				7ED9188017E5E75D00E8BA05 /* BaseFollowArrowCell.m in Sources */,
+				7ED9188117E5E75D00E8BA05 /* RTFollowCellArrowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

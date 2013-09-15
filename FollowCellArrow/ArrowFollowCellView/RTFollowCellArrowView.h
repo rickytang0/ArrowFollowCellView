@@ -32,10 +32,11 @@ typedef enum {
     NSIndexPath *_lastIndexPath;
 }
 
-@property(nonatomic,weak)IBOutlet UITableView *tableView;
-@property(nonatomic,weak)IBOutlet UIImageView *imageArrow;
-@property(nonatomic,strong)IBOutlet id<UITableViewDataSource> dataSource;
-@property(nonatomic,strong)IBOutlet id<RTFollowCellArrowViewDelegate> delegate;
+@property(nonatomic,strong)IBOutlet UITableView *tableView;
+@property(nonatomic,strong)IBOutlet UIImageView *imageArrow;
+@property(nonatomic,weak)IBOutlet id<UITableViewDataSource> dataSource;
+@property(nonatomic,weak)IBOutlet id<RTFollowCellArrowViewDelegate> delegate;
 @property(nonatomic,assign)RTFollowArrowType type;
 
+-(void)setArrowToIndex:(NSIndexPath *)indexPath animation:(BOOL)isAnimation;
 @end
