@@ -43,7 +43,7 @@
     self.tableView.decelerationRate = 0.2f;
     self.imageArrow.center = CGPointMake(CGRectGetWidth(self.tableView.frame)-CGRectGetWidth(self.imageArrow.frame)/2+1, CGRectGetHeight(self.tableView.frame));
     self.imageArrow.hidden = YES;
-    self.imageArrow.frame = CGRectMake(CGRectGetMinX(self.imageArrow.frame), CGRectGetMinY(self.imageArrow.frame), CGRectGetWidth(self.imageArrow.frame), 12);
+    self.imageArrow.frame = CGRectMake(CGRectGetMinX(self.imageArrow.frame), CGRectGetMinY(self.imageArrow.frame), CGRectGetWidth(self.imageArrow.frame), CGRectGetHeight(self.imageArrow.frame));
     //RTLog(@"imageArrow rect %@",NSStringFromCGRect(self.imageArrow.frame));
     //RTLog(@"table rect %@",NSStringFromCGRect(self.tableView.frame));
     if ([self.dataSource tableView:self.tableView numberOfRowsInSection:0] < 1) {
